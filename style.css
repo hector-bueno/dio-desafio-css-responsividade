@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
@@ -7,10 +7,111 @@
 }
 
 body {
-    
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 505px;
+    width: 100%;
+    background: url(./imgs/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulos {
+    font-family: 'Luckiest Guy', 'sans serif';
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 50px 0 0 25px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: white;
+    width: 278px;
+}
+
+#paragrafo-titulo {
+    color: white;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0;
+}
+
+.paragrafos {
+    /* background-color: aqua; */
+    /* width: 100%; */
+    font-family: 'Open Sans', 'sans serif';
+    font-size: 1rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+#buttons {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 button {
-    height: 2.5rem;
-    border-radius: calc(2.5rem / 2);
+    font-size: 1rem;
+    width: 90%;
+    height: 4rem;
+    border-radius: calc(4rem / 2);
+}
+
+#btn-abrir-navegador {
+    color: white;
+    background-color: #23242A;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.containers-cards, #confiavel {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2[class=subtitulos] {
+    font-weight: 800;
+}
+
+.imgs-container {
+    width: 100%;
+    margin: 2rem 0 1.2rem 0;
+}
+
+.imgs-principais {
+    width: 100%;
+}
+
+#titulo-confiavel {
+    margin: 3rem 0 1rem 0;
+    padding: 0;
+}
+
+footer {
+    height: 9.5rem;
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+#img-footer {
+    height: 2.2rem;
 }
