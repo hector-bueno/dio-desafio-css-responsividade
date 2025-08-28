@@ -1,0 +1,89 @@
+@media only screen and (min-width: 600px) {
+    body {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .titulos {
+        font-size: 3rem;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #paragrafo-titulo {
+        margin: auto;
+        width: 80%;
+    }
+
+    #buttons {
+        margin-top: 2rem;
+        height: 5rem;
+        gap: 1rem;
+    }
+
+    button {
+        padding: 0  50px;
+        width: 20rem;
+    }
+
+    #btn-abrir-navegador {
+        width: 27rem;
+    }
+
+    .imgs-container {
+        width: 60%;
+        margin: 2rem 1rem 1.2rem 1rem;
+    }
+
+    .conteudo-cards {
+        width: 40%;
+    }
+
+    #card-encontrar {
+        flex-direction: row-reverse;
+    }
+    
+    #conteudo-confiavel {
+        width: 100%;
+    }
+    
+    #titulo-confiavel {
+        width: 90%;
+    }
+    
+    #paragrafo-confiavel {
+        text-align: center;
+    }
+    
+    #img-confiavel-container {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        padding-top: 10vh;
+        background-color: #23272A;
+    }
+    
+    main {
+        background-color: white;
+    }
+
+    .titulos {
+        margin-bottom: 0;
+    }
+
+    header {
+        /* padding: 0; */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragrafos {
+        margin-top: 1rem;
+        font-size: large;
+    }
+}
